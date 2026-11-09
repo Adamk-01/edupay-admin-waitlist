@@ -1,0 +1,5 @@
+/* Small additions for real navigation links (previously inert <button>s).
+   The existing dashboard stylesheet is preserved untouched. */
+.actions a{height:36px;border-radius:6px;padding:0 12px;display:flex;align-items:center;gap:7px;font-size:10px;font-weight:bold;text-decoration:none}
+.navitem,.viewall,.setup{text-decoration:none}
+.navitem:focus-visible,.actions a:focus-visible,.viewall:focus-visible,.setup:focus-visible,.notice a:focus-visible{outline:2px solid #e97840;outline-offset:2px}
